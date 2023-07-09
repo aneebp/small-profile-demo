@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;  
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    min-height: 100vh;
+}
+    
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 1rem;
+}
+.header .right-hd{
+    margin-right: 6rem;
+    display: flex;
+    align-items: center;
+
+}
+.header .right-hd ul{
+    display: flex;
+    gap: 4rem;
+    padding-right: 4rem;
+
+
+}
+.header .right-hd ul li{
+    font-size: 1.2rem;
+    color: rgb(69, 92, 92);
+    transition: all 300ms ease;
+    
+
+}
+.header .right-hd ul li a{
+    color: white;
+    transition: all 300ms ease;
+}
+.header .right-hd ul li a:hover{
+    color: #2ecc71;
+}
+.header .right-hd ul li:hover{
+    color: #2ecc71;
+    transform: scale(1.5);
+}
+.main{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./images/esss.jpeg);
+    
+
+}
+.left-hd{
+    margin-left: 3rem;
+    height:65px;
+    width: 65px;
+    border: 2px solid #2ecc71;
+    background-color: transparent;
+    color:  #2ecc71;
+    border-radius: 50%;
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+}
+.Contact-btn a{
+    color: #2ecc71;
+    transition: all .3s ease;
+    padding: 0.8rem 1.3rem;
+    background-color: transparent;
+    border-radius: 2rem;
+    border: 2px solid #2ecc71;
+    transition: all .3s ease;
+}
+ .Contact-btn a:hover{
+    color: white;
+    background-color: #2ecc71;
+    border: 2px solid transparent
+}
+section{
+    padding: 2rem;
+    margin-top: 6rem;
+    margin-left: 2rem;
+    color: white;
+}
+section .left-sc{
+    display: grid;
+    align-items: center;
+    justify-content: flex-start;
+}
+section .left-sc h4{
+    font-size: 3.3rem;
+    margin-bottom: 2rem;
+
+}
+section .left-sc p{
+    max-width: 40rem;
+    line-height: 1.7rem;
+
+}
+section .left-sc .socia-icon{
+    margin-top: 2rem;
+    display: flex;
+    gap: 1.5rem;
+}
+section .left-sc .Contact-btn{
+    margin-top: 3.5rem;
+}
+section .left-sc .socia-icon a{
+    color: white;
+    padding: 0.7rem 0.7rem;
+    background: #1e2615;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    text-align: center;
+    transition: all .4s ease;
+}
+section .left-sc .socia-icon a:hover{
+    transform: scale(1.3);
+    color: #2ecc71;
+}
+section .left-sc .btn{
+    padding-top: 4rem;
+}
+section .left-sc .btn a{
+    padding: 0.8rem 1.8rem;
+    background-color: #2ecc71;
+    color: white;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid #2ecc71;
+    border-radius: 1.6rem;
+    transition: .4s ease all;
+}
+section .left-sc .btn a:hover{
+    background: transparent;
+    color: #2ecc71;
+}
+section .left-sc span{
+    color: #2ecc71;
+    
+}
+
+@media only screen and (max-width:880px) {
+    .header .right-hd{
+        display: none;
+    }
+    
+}
